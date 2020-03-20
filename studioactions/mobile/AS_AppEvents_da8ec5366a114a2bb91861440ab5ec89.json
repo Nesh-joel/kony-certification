@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_da8ec5366a114a2bb91861440ab5ec89": {
+        "id": "AS_AppEvents_da8ec5366a114a2bb91861440ab5ec89",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d44377a8b547475e941a29341ff9ea70",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\n// try{\n//   var KNYMobileFabric = new kony.sdk();\n//   KNYMobileFabric.init(\"d0c2a7ffca09966607c91c8416a32cd0\", \"b4c90391b595d203375598fe78dc915c\", \"https://100025907.auth.konycloud.com/appconfig\", successsdkCallback, failuresdkCallback);\n// }catch(err){\n//   kony.print(\"Exception in app int\"+err);\n// }\n\n// function successsdkCallback(res){\n//   isAppinitdone =true;\n//   kony.print(\"successCallback\");\n// }\n\n// function failuresdkCallback(res){\n//   isAppinitdone =false;\n//   kony.print(\"errorCallback\");\n// }\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

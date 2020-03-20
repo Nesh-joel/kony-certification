@@ -1,0 +1,10 @@
+{
+  "subType" : "customapp",
+  "description" : "Best Buy Certification",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "bestBuyService",
+    "version" : "1.0",
+    "etag" : "41cbcb2e-6693-4a23-a02b-75fa96122c35"
+  } ]
+}
